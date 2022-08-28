@@ -6,4 +6,4 @@ The first day's project is a **Recipe Notations using CLI**. With this, you will
 
 ## How to run
 1. Install the commander dependencies using `npm install` or `yarn install`
-2. Run `node recipe.js` to see the project apresentation and the available flags to use to make your annotations
+2. Run `node recipe.js` to see the project presentation and the available flags to use to make your annotations
