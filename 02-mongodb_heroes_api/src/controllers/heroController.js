@@ -14,7 +14,8 @@ async function save(data) {
 
         return {
             success: true,
-            message: 'Hero stored successfully!'
+            message: 'Hero stored successfully!',
+            data: response
         }
 
         
