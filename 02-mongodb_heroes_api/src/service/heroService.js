@@ -1,4 +1,3 @@
-const mongoose = require('mongoose');
 const Hero = require('../models/Hero');
 
 async function store(userData) {

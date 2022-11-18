@@ -1,9 +1,6 @@
-const connection = require('../database/connection');
-const mongoose = require("mongoose");
+const { model, Schema } = require("mongoose");
 
-connection.connect();
-
-const heroSchema = new mongoose.Schema({
+const heroSchema = new Schema({
     name: {
         type: String,
         required: true,
@@ -32,6 +29,6 @@ const heroSchema = new mongoose.Schema({
     collection: 'heroes'
 })
 
-const Hero = mongoose.model('Hero', heroSchema)
+const Hero = model('Hero', heroSchema)
 
 module.exports = Hero
